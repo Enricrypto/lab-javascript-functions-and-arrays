@@ -2,11 +2,11 @@
 function maxOfTwoNumbers(num1, num2) {
   let max;
   if (num1 > num2) {
-    return (max = num1);
+    return max = num1;
   } else if (num1 < num2) {
-    return (max = num2);
+    return max = num2;
   } else {
-    return (max = num1);
+    return max = num1;
   }
 }
 
