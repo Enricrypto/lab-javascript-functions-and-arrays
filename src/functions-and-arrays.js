@@ -2,11 +2,11 @@
 function maxOfTwoNumbers(num1, num2) {
   let max;
   if (num1 > num2) {
-    return max = num1;
+    return (max = num1);
   } else if (num1 < num2) {
-    return max = num2;
+    return (max = num2);
   } else {
-    return max = num1;
+    return (max = num1);
   }
 }
 
@@ -23,6 +23,7 @@ const words = [
 
 function findLongestWord(words) {
   let longestWord = "";
+
   if (words.length === 0) {
     return null;
   }
@@ -35,6 +36,7 @@ function findLongestWord(words) {
 }
 
 console.log(findLongestWord(words));
+
 // Iteration #3: Calculate the sum
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
@@ -107,6 +109,7 @@ const wordsArr = [
 
 function averageWordLength(wordsArr) {
   let sum = 0;
+
   if (wordsArr.length === 0) {
     return null;
   } else {
